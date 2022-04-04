@@ -1,4 +1,4 @@
-import utility from "./utility.js";
+import * as utility from "./utility.js";
 import { state,setState } from "./global.js";
 
 const addToFirstValue = (numberPressed:string) => {

@@ -1,4 +1,4 @@
-import utility from "./utility.js"
+import * as utility from "./utility.js"
 import { domElements,state,setState } from "./global.js";
 const sum = (firstVal:number, secondVal:number) => firstVal + secondVal;
 const minus = (firstVal:number, secondVal:number) => firstVal - secondVal;
